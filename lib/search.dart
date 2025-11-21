@@ -27,8 +27,6 @@ class BottomNavigationBarExample extends StatefulWidget {
       _BottomNavigationBarExampleState();
 }
 
-
-
 class _BottomNavigationBarExampleState
     extends State<BottomNavigationBarExample> {
 int _selectedIndex = 0;
