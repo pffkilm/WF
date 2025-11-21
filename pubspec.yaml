@@ -6,7 +6,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.6.1
+  sdk: '>=3.0.0 <4.0.0'
 
 
 dependencies:
@@ -15,14 +15,31 @@ dependencies:
   cupertino_icons: ^1.0.8
   smooth_page_indicator: ^1.2.1
   standard_searchbar: ^2.1.1
+  json_annotation: ^4.9.0
   webview_flutter: ^4.13.0
+  http: ^1.6.0
+  api_service_helper: ^1.0.0
+
 
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
+  build_runner: ^2.4.7
+  json_serializable: ^6.8.0
+  flutter_launcher_icons: "^0.13.1"
 
+
+
+flutter_launcher_icons:
+  ios: true
+  android: true
+  image_path: "assets/images/icon.png"
+  adaptive_icon_background: "assets/images/fon.png"
+  adaptive_icon_foreground: "assets/images/WF.png"
+
+  
 flutter:
   uses-material-design: true
   assets:
